@@ -20,9 +20,9 @@
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: auto;
     overflow-y: visible;               // Add scrollbar if the sidebar is too long
-    position: sticky;
+    position: relative;
     top: $masthead-height;
-    padding-top: $masthead-height;
+    padding-top: 0;
   }
 
   @include breakpoint($large) {
